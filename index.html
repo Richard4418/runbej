@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Ваш JavaScript -->
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <header class="transparent-header">
+        <a href="#main-section" class="header-logo">
+            <img src="img/Rubej.png" alt="Лого" class="logo-image">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item dropdown">
+                    <a href="#" class="nav-link">Услуги
+                        <span class="arrow-down"></span> <!-- Стрелочка вниз -->
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pages/pricePage.html">Страйкбол</a></li>
+                        <li><a href="pages/pricePage.html#gidroball">Гидробол</a></li>
+                    </ul>
+                </li>
+                <li class="header-nav-item"><a href="pages/pageGallery.html" class="nav-link">Галерея</a></li>
+                <li class="header-nav-item"><a href="#club-advantages" class="nav-link">О клубе</a></li>
+                <li class="header-nav-item"><a href="#contact-section" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-contact">
+            <p class="header-phone">+7 (903) 932-03-33</p>
+            <p class="header-call">ЗВОНИТЕ!</p>
+        </div>
+    </header>
+
+    <main class="main-section" id="main-section">
+        <video class="background-video" autoplay muted loop>
+            <source src="img/gifimg.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        <div class="content-overlay">
+            <div class="layer__header">
+                <div class="layers__caption">военно-тактический полигон</div>
+                <div class="layers__title">РУБЕЖ</div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- <section class="club-advantages" id="club-advantages">
+        <h1 class="club-title">О КЛУБЕ</h1>
+        <div class="advantages-main">
+        <h2 class="advantages-subtitle">ВОЕННО-ТАКТИЧЕСКИЙ ПОЛИГОН РУБЕЖ</h2>
+        <p class="advantages-description">
+            В нашем центре вы сможете отлично провести время в компании друзей или коллег, отдохнуть от повседневной рутины и зарядиться энергией, играя в захватывающую игру в реальность
+        </p>
+        </div>
+        <div class="advantages-container">
+            <div class="advantage-block advantage-bg-1">
+                <h2>СОВРЕМЕННОЕ СНАРЯЖЕНИЕ</h2>
+                <p>Обеспечит комфорт и легкость при использовании нашего снаряжения.</p>
+            </div>
+            <div class="advantage-block">
+                <h2>ВНИМАТЕЛЬНЫЙ ПОДХОД К КАЖДОМУ МЕРОПРИЯТИЮ</h2>
+                <p>Мы учитываем пожелание каждого гостя, для получения незабываемых впечатлений  нашем клубе.</p>
+            </div>
+            <div class="advantage-block">
+                <h2>Преимущество 3</h2>
+                <p>Описание третьего преимущества клуба.</p>
+            </div>
+            <div class="advantage-block advantage-bg-4">
+                <h2>Преимущество 4</h2>
+                <p>Описание четвертого преимущества клуба.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="swiper-section" id="club-advantages">
+        
+        <h1 class="swiper-title">О НАШЕМ КЛУБЕ</h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-images">
+                        <img src="img/guns.png" alt="Современное снаряжение" class="ammun1">
+                        <img src="img/p90.png" alt="Современное снаряжение" class="ammun1 p90">
+                    </div>
+                    <p class="text-swiper">Современное снаряжение для страйкбола в нашем клубе сочетает в себе надежность и комфорт, обеспечивая максимальную безопасность в любых условиях.</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-images">
+                        <img src="img/poligonImg.jpeg" alt="Крутой полигон">
+                        <img src="img/poligonImg1.jpg" alt="Крутой полигон">
+                    </div>
+                    <p class="text-swiper">Наш полигон — это высокотехнологичное пространство, которое постоянно обновляется для создания лучших условий для тренировок и соревнований.</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-images">
+                        <img src="img/ivents.jpeg" alt="Проводим ивенты">
+                        <img src="img/ivents1.jpeg" alt="Проводим ивенты">
+                    </div>
+                    <p class="text-swiper">Мы проводим увлекательные ивенты по популярным играм, погружаясь в атмосферу и создавая незабываемые эмоции для всех участников.</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-images">
+                        <img src="img/ivents2.jpeg" alt="Индивидуальный подход">
+                        <img src="img/ivents4.jpeg" alt="Индивидуальный подход">
+                    </div>
+                    <p class="text-swiper">В нашем клубе каждому участнику гарантирован индивидуальный подход, чтобы вы получили максимальный комфорт и удовольствие от игры.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Кнопки навигации -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Пагинация -->
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+
+        
+        <script src="https://res.smartwidgets.ru/app.js" defer></script>
+        <div class="sw-app" data-app="a4ec4e70b0218817b7944ce44a644f91"></div>
+
+        <div class="contact-container">
+            <div class="contact-details">
+                <h1 class="contact-title">КОНТАКТЫ</h1>
+                <div class="contact-item">
+                    <h2 class="phone">Телефон</h2>
+                    <p>+7 (903) 932-03-33</p>
+                </div>
+                <div class="contact-item">
+                    <h2 class="mail">Наши соц.сети</h2>
+                    <ul class="social-list">
+                        <li><a href="https://t.me/rubezhnsk" class="social-link">Telegram</a></li>
+                        <li><a href="https://vk.com/rubezhnsk" class="social-link">VK</a></li>
+                    </ul>
+                </div>
+                <div class="contact-item">
+                    <h2 class="adress">Адрес</h2>
+                    <p>г. Новосибирск ул. Станционная 30б, Новосибирск</p>
+                </div>
+                <div class="contact-item">
+                    <h2 class="hours">Часы работы</h2>
+                    <p>Работаем без выходных с 7:00 до 22:00</p>
+                </div>
+            </div>
+            <div class="contact-map">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/65/novosibirsk/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Новосибирск</a><a
+                        href="https://yandex.ru/maps/65/novosibirsk/house/stantsionnaya_ulitsa_30b/bEsYfgRjTEIFQFtvfXxwcHllZg==/?ll=82.833571%2C55.011562&utm_medium=mapframe&utm_source=maps&z=16.59"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Станционная улица, 30Б —
+                        Яндекс Карты</a><iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=82.833571%2C55.011562&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNjIzMTI2NjI5Ek3QoNC-0YHRgdC40Y8sINCd0L7QstC-0YHQuNCx0LjRgNGB0LosINCh0YLQsNC90YbQuNC-0L3QvdCw0Y8g0YPQu9C40YbQsCwgMzDQkSIKDcqqpUIV1gtcQg%2C%2C&z=16.59"
+                        width="800" height="450" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
